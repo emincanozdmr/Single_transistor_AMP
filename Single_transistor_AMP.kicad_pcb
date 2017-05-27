@@ -3,7 +3,7 @@
   (general
     (links 14)
     (no_connects 0)
-    (area 125.679999 66.624999 178.485001 119.430001)
+    (area 125.595 66.624999 178.485001 119.94)
     (thickness 1.6)
     (drawings 5)
     (tracks 62)
@@ -82,7 +82,7 @@
       (psnegative false)
       (psa4output false)
       (plotreference true)
-      (plotvalue true)
+      (plotvalue false)
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)

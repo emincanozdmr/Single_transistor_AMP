@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/EMİN CAN/Desktop/PCB/Single_transistor_AMP/Single_transistor_AMP.sch</source>
+    <date>27.05.2017 16:04:04</date>
+    <tool>Eeschema 4.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Single_transistor_AMP</title>
+        <company>VENTSPİLS UNİVERSİTY</company>
+        <rev>1.0</rev>
+        <date>2017-03-23</date>
+        <source>Single_transistor_AMP.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Q1">
+      <value>BC548</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval</footprint>
+      <datasheet>http://www.mouser.com/ds/2/149/BC547-190204.pdf</datasheet>
+      <libsource lib="transistors" part="BC548"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D394C7</tstamp>
+    </comp>
+    <comp ref="20uF1">
+      <value>C</value>
+      <footprint>Capacitors_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
+      <datasheet>http://www.es.co.th/Catalog/003.pdf</datasheet>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D3956F</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>22k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>http://elcodis.com/parts/1636504/CFR-25JR-22K.html#datasheet</datasheet>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D395F0</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>4,7k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.jameco.com/Jameco/Products/ProdDS/691024.pdf</datasheet>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D39641</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>20uF</value>
+      <footprint>Capacitors_THT:C_Rect_L31.5mm_W9.0mm_P27.50mm_MKS4</footprint>
+      <datasheet>http://eu.mouser.com/ProductDetail/Vishay-Sprague/TVA1410-E3/?qs=sGAEpiMZZMtZ1n0r9vR22fD1uTV3UxMj8VY1LQ3tMWg%3d</datasheet>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D3967E</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>50uF</value>
+      <footprint>Capacitors_THT:CP_Axial_L21.0mm_D8.0mm_P28.00mm_Horizontal</footprint>
+      <datasheet>http://eu.mouser.com/ProductDetail/Vishay-Sprague/TVA1308-E3/?qs=sGAEpiMZZMtZ1n0r9vR22QsCVzpjG1J18Kh8sLvZs0U%3d</datasheet>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D396C3</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1,8k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.futurlec.com/Resistors/R0018K14Wpr.shtml</datasheet>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D3971A</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>6,8k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.digchip.com/datasheets/parts/datasheet/1838/CFR-50JB-6K8.php</datasheet>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D3974F</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>Sıgnal_Out</value>
+      <footprint>Buttons_Switches_THT:SW_PUSH</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D398AC</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>Signal_İn</value>
+      <footprint>Buttons_Switches_THT:SW_PUSH</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D39B9F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="transistors" part="BC547">
+      <aliases>
+        <alias>BC546</alias>
+        <alias>BC548</alias>
+        <alias>BC549</alias>
+        <alias>BC550</alias>
+      </aliases>
+      <description>45V Vce, 0.1A Ic, NPN, Small Signal Transistor, TO-92</description>
+      <docs>http://www.fairchildsemi.com/ds/BC/BC547.pdf</docs>
+      <footprints>
+        <fp>TO-92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC547</field>
+        <field name="Footprint">TO-92</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="transistors">
+      <uri>C:\Program Files\KiCad\share\kicad\library\transistors.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(20uF1-Pad2)">
+      <node ref="P1" pin="1"/>
+      <node ref="20uF1" pin="2"/>
+    </net>
+    <net code="2" name="+12C">
+      <node ref="R3" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(C3-Pad2)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="4" name="Net-(20uF1-Pad1)">
+      <node ref="Q1" pin="2"/>
+      <node ref="20uF1" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="5" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="P2" pin="2"/>
+      <node ref="P1" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="7" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="P2" pin="1"/>
+    </net>
+  </nets>
+</export>
